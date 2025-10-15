@@ -38,8 +38,38 @@ const Work = () => {
         </div>
       </div>
       <div className='container'>
-        <div className='portfolio-content lightbox-gallery'>
 
+        
+        <div className='portfolio-content lightbox-gallery'>
+        <div className='grid-item product branding'>
+            <div
+              className='portfolio-box-01'
+              style={{ boxShadow: 'rgba(149, 157, 165, 0.2) 0px 8px 24px' }}
+            >
+              <div className='portfolio-img'>
+                <img src='static/img/ecommerce.png' alt='image' />
+              </div>
+              <div className='portfolio-info'>
+                <div>
+                  <a href='https://ecommerce-website-rho-blue.vercel.app/' target='_blank'>
+                    <span
+                      className='rounded-circle p-3'
+                      style={{ backgroundColor: '#fff' }}
+                    >
+                      <img
+                        src='static/img/web-icon.png'
+                        width='20'
+                        alt='icon'
+                      />
+                    </span>
+                  </a>
+                </div>
+                {/* <h5>Our Photography</h5>
+                <span>Design</span> */}
+              </div>
+              {/* <a className="link-overlay" href="#" /> */}
+            </div>
+          </div>
         <div className='grid-item product branding'>
             <div
               className='portfolio-box-01'

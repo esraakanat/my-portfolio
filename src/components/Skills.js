@@ -20,129 +20,64 @@ const Skills = () => {
         </div>
         <div className="row justify-content-between">
           <div className="col-lg-6 m-15px-tb">
-            {/* skill */}
-            <div className="skill-lt">
-              <h6 className="dark-color">React js | Next js</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={92}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>80%</span>
+            <div className="row">
+              <div className="col-6 m-15px-tb">
+                {/* skill */}
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fab fa-react text-primary"></i>
+                    React js | Next js
+                  </h6>
                 </div>
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fas fa-database text-info"></i>
+                    React Query
+                  </h6>
+                </div>
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fas fa-layer-group text-purple"></i>
+                    Redux
+                  </h6>
+                </div>
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fab fa-html5 text-danger"></i>
+                    HTML | CSS
+                  </h6>
+                </div>
+                {/* end skill */}
+              </div>
+              <div className="col-6 m-15px-tb">
+                {/* skill */}
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fab fa-js-square text-warning"></i>
+                    JavaScripts /Es6
+                  </h6>
+                </div>
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fas fa-cloud text-success"></i>
+                    Rest APIs
+                  </h6>
+                </div>
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fas fa-palette text-primary"></i>
+                    Material-UI
+                  </h6>
+                </div>
+                <div className="skill-lt">
+                  <h6 className="dark-color">
+                    <i className="fas fa-wind text-cyan"></i>
+                    Tailwind CSS
+                  </h6>
+                </div>
+                {/* end skill */}
               </div>
             </div>
-            <div className="skill-lt">
-              <h6 className="dark-color">React Query </h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={86}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>82%</span>
-                </div>
-              </div>
-            </div>
-            <div className="skill-lt">
-              <h6 className="dark-color">Redux </h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={86}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>75%</span>
-                </div>
-              </div>
-            </div>
-            {/* end skill */}
-            {/* skill */}
-            <div className="skill-lt">
-              <h6 className="dark-color">HTML | CSS</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={72}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>90%</span>
-                </div>
-              </div>
-            </div>
-            <div className="skill-lt">
-              <h6 className="dark-color">JavaScripts /Es6</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={50}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>85%</span>
-                </div>
-              </div>
-            </div>
-            <div className="skill-lt">
-              <h6 className="dark-color">Rest APIs</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={80}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>75%</span>
-                </div>
-              </div>
-            </div>
-            {/* end skill */}
-            {/* skill */}
-            <div className="skill-lt">
-              <h6 className="dark-color">Material-UI </h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={86}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>80%</span>
-                </div>
-              </div>
-            </div>
-            {/* /skill */}
-            {/* end skill */}
-            {/* skill */}
-            <div className="skill-lt">
-              <h6 className="dark-color">Tailwind CSS</h6>
-              <div className="skill-bar">
-                <div
-                  className="skill-bar-in theme-bg"
-                  role="progressbar"
-                  aria-valuenow={50}
-                  aria-valuemin={0}
-                  aria-valuemax={100}
-                >
-                  <span>90%</span>
-                </div>
-              </div>
-            </div>
-             
-            
-            {/* end skill */}
           </div>
           <div className="col-lg-5 m-15px-tb">
             <div className="row">
@@ -154,6 +89,7 @@ const Skills = () => {
                   <div className="media-body">
                     <h5>20+ Clients</h5>
                   </div>
+
                 </div>
               </div>
               
@@ -176,3 +112,4 @@ const Skills = () => {
   );
 };
 export default Skills;
+

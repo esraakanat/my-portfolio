@@ -91,7 +91,7 @@ const Index1 = () => {
         <section
           id="home"
           className="home-banner-01 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url(static/img/esraa.png)" }}
+          style={{ backgroundImage: "url(static/img/esr.jpeg)" }}
         >
           <div className="container">
             <div className="row full-screen align-items-center p-100px-tb">
